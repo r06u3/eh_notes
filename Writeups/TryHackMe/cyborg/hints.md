@@ -1,0 +1,4 @@
+version
+segments
+compact
+storage_quota_use

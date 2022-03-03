@@ -19,7 +19,7 @@ cat /etc/update-motd.d/00-header
 
 # FIND SUID FILES
 find / -perm -4000 2>/dev/null
-
+find / -perm -6000 2>/dev/null
 
 
 
@@ -32,4 +32,5 @@ find / -perm -4000 2>/dev/null
 ## If you are presented with an upload form, and you try to upload a file with a certain extension and it seems to be not allowed, try other similar extensions: if .php is not allowed, try php2, php3, php4, php5, phtml.
 
 
-sudo -l
+# Creating a Symbolic link exameple:
+**ln -s /home/kali/Downloads/./Obsidian-0.12.19.AppImage /bin/obsidian**
